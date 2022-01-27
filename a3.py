@@ -50,7 +50,7 @@ def make_str_from_row(board, row_index):
 def make_str_from_column(board, column_index):
     """ (list of list of str, int) -> str
 
-    Return the characters from the column of the board with index column_index
+    Return all of the characters from the column of the board with index column_index
     as a single string.
 
     >>> make_str_from_column([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 1)
